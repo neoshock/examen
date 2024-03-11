@@ -26,10 +26,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'localhost',
-        'username'     => 'root',
-        'password'     => '',
-        'database'     => 'tienda',
+        'hostname'     => 'database-2.crk28qqmw45e.us-east-1.rds.amazonaws.com',
+        'username'     => 'admin',
+        'password'     => '123456789',
+        'database'     => 'database-2',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
